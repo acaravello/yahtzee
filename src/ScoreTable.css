@@ -17,3 +17,10 @@
   vertical-align: top;
   width: 100%;
 }
+
+@media(max-width: 500px) {
+  .ScoreTable table {
+    min-width: auto;
+  }
+}
+

@@ -3,3 +3,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media(max-width: 549px) {
+  .Die.fa-5x {
+    font-size: 4rem;
+  }
+}
+
+@media(max-width: 499px) {
+  .Die.fa-5x {
+    font-size: 3rem;
+  }
+}
+
+
+@media(max-width: 369px) {
+  .Die.fa-5x {
+    font-size: 2rem;
+  }
+}

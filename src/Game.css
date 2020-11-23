@@ -8,6 +8,29 @@
   justify-content: center;
   align-items: center;
 }
+
+@media(max-width: 1549px) {
+  .Game {
+    width: 50%;
+    margin: 0 25%
+  }
+}
+
+@media(max-width: 979px) {
+  .Game {
+    width: 76%;
+    margin: 0 12%;
+  }
+}
+
+@media(max-width: 659px) {
+  .Game {
+    width: 94%;
+    margin: 0 3%;
+  }
+}
+
+
 h2 {
   font-weight: 100;
   font-size: 2em;
@@ -61,6 +84,18 @@ h2 {
   background-color: #ddd;
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+@media(max-width: 479px) {
+  .Game-reroll {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 369px) {
+  .Game-reroll {
+    font-size: 1rem;
+  }
 }
 
 .Game-description {
